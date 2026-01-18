@@ -1,0 +1,25 @@
+/* 1) Load the font */
+@font-face {
+    font-family: "GenshinFont";
+    src: url("https://raw.githubusercontent.com/Shalyra/genshinfont/main/zh-cn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2) Apply it globally */
+:root, 
+* {
+    font-family: "GenshinFont" !important;
+}
+
+/* 3) Specific Discord text elements (optional, more reliable) */
+
+.da-text,
+.da-header,
+.da-message,
+.da-username,
+.da-discovery-category-name,
+.da-title,
+.da-input,
+.da-chat {
+    font-family: "GenshinFont" !important;
